@@ -1,0 +1,1 @@
+Pliki ufx utworzone przy pomocy programu UMLet

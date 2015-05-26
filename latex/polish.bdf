@@ -1,0 +1,165 @@
+%%
+%% This is file `polish.bdf',
+%%
+%% Based upon afrikaans.bdf
+%%
+%%   babelbib package
+%% 
+%%   Copyright  2003--2014 Harald Harders
+%% 
+%%   This program can be redistributed and/or modified under the terms
+%%   of the LaTeX Project Public License Distributed from CTAN
+%%   archives in directory macros/latex/base/lppl.txt; either
+%%   version 1 of the License, or any later version.
+%% 
+%%   harald.harders@gmx.de
+%% 
+%% Language definitions for Polish by
+%%   Piotr Maślanka <piotrm@dms-serwis.com.pl>
+%%   Note from translator: I'm by no means a scholar, expect mistakes
+%%
+\ProvidesFile{polish.bdf}
+  [2005/11/13 v1.20  babelbib: multilingual bibliographies (HH)]
+\newcommand\bibspolish[1][polish]{%
+  \def\biblanguagename{#1}%
+  \def\btxetalshort##1{\protect\foreignlanguage{#1}{i~in.##1{}}}%
+  \def\btxetallong##1{\protect\foreignlanguage{#1}{i~inni}}%
+  \def\btxandshort##1{\protect\foreignlanguage{#1}{i}}%
+  \def\btxandlong##1{\protect\foreignlanguage{#1}{i}}%
+  \def\btxandcomma##1{\protect\foreignlanguage{#1}{}}%
+  \def\btxinlong##1{\protect\foreignlanguage{#1}{w}}%
+  \def\btxinshort##1{\protect\foreignlanguage{#1}{w}}%
+  \def\btxofseriesshort##1{\protect\foreignlanguage{#1}{w}}%
+  \def\btxinseriesshort##1{\protect\foreignlanguage{#1}{w}}%
+  \def\btxofserieslong##1{\protect\foreignlanguage{#1}{w}}%
+  \def\btxinserieslong##1{\protect\foreignlanguage{#1}{w}}%
+  \def\btxeditorshort##1{\protect\foreignlanguage{#1}{red##1{}}}%
+  \def\btxeditorlong##1{\protect\foreignlanguage{#1}{redaktor}}%
+  \def\btxeditorsshort##1{\protect\foreignlanguage{#1}{reds##1{}}}%
+  \def\btxeditorslong##1{\protect\foreignlanguage{#1}{redaktorzy}}%
+  \def\btxvolumeshort##1{\protect\foreignlanguage{#1}{vol.##1{}}}%
+  \def\btxvolumelong##1{\protect\foreignlanguage{#1}{volume}}%
+  \def\btxnumbershort##1{\protect\foreignlanguage{#1}{nr##1{}}}%
+  \def\btxnumberlong##1{\protect\foreignlanguage{#1}{numer}}%
+  \def\btxeditionshort##1{\protect\foreignlanguage{#1}{wyd.##1{}}}%
+  \def\btxeditionlong##1{\protect\foreignlanguage{#1}{wydanie}}%
+  \def\btxchaptershort##1{\protect\foreignlanguage{#1}{rozdz.##1{}}}%
+  \def\btxchapterlong##1{\protect\foreignlanguage{#1}{rozdział}}%
+  \def\btxpageshort##1{\protect\foreignlanguage{#1}{s.##1{}}}%
+  \def\btxpagelong##1{\protect\foreignlanguage{#1}{strona}}%
+  \def\btxpagesshort##1{\protect\foreignlanguage{#1}{str.##1{}}}%
+  \def\btxpageslong##1{\protect\foreignlanguage{#1}{strony}}%
+  \def\btxmastthesis##1{\protect\foreignlanguage{#1}{Praca magisterska}}%
+  \def\btxphdthesis##1{\protect\foreignlanguage{#1}{Rozprawa doktorska}}%
+  \def\btxtechrepshort##1{\protect\foreignlanguage{#1}{Rap.\ tech.##1{}}}%
+  \def\btxtechreplong##1{\protect\foreignlanguage{#1}{Raport techniczny}}%
+  \def\btxmonjanlong##1{\protect\foreignlanguage{#1}{Styczeń}}%
+  \def\btxmonfeblong##1{\protect\foreignlanguage{#1}{Luty}}%
+  \def\btxmonmarlong##1{\protect\foreignlanguage{#1}{Marzec}}%
+  \def\btxmonaprlong##1{\protect\foreignlanguage{#1}{Kwiecień}}%
+  \def\btxmonmaylong##1{\protect\foreignlanguage{#1}{Maj}}%
+  \def\btxmonjunlong##1{\protect\foreignlanguage{#1}{Czerwiec}}%
+  \def\btxmonjullong##1{\protect\foreignlanguage{#1}{Lipiec}}%
+  \def\btxmonauglong##1{\protect\foreignlanguage{#1}{Sierpień}}%
+  \def\btxmonseplong##1{\protect\foreignlanguage{#1}{Wrzesień}}%
+  \def\btxmonoctlong##1{\protect\foreignlanguage{#1}{Październik}}%
+  \def\btxmonnovlong##1{\protect\foreignlanguage{#1}{Listopad}}%
+  \def\btxmondeclong##1{\protect\foreignlanguage{#1}{Grudzień}}%
+  \def\btxmonjanshort##1{\protect\foreignlanguage{#1}{Sty##1{}}}%
+  \def\btxmonfebshort##1{\protect\foreignlanguage{#1}{Lut##1{}}}%
+  \def\btxmonmarshort##1{\protect\foreignlanguage{#1}{Mar##1{}}}%
+  \def\btxmonaprshort##1{\protect\foreignlanguage{#1}{Kwi##1{}}}%
+  \def\btxmonmayshort##1{\protect\foreignlanguage{#1}{Maj##1}}%
+  \def\btxmonjunshort##1{\protect\foreignlanguage{#1}{Cze##1}}%
+  \def\btxmonjulshort##1{\protect\foreignlanguage{#1}{Lip##1}}%
+  \def\btxmonaugshort##1{\protect\foreignlanguage{#1}{Sie##1{}}}%
+  \def\btxmonsepshort##1{\protect\foreignlanguage{#1}{Wrz##1{}}}%
+  \def\btxmonoctshort##1{\protect\foreignlanguage{#1}{Paź##1{}}}%
+  \def\btxmonnovshort##1{\protect\foreignlanguage{#1}{Lis##1{}}}%
+  \def\btxmondecshort##1{\protect\foreignlanguage{#1}{Gru##1{}}}%
+  \def\Btxinlong##1{\protect\foreignlanguage{#1}{W}}%
+  \def\Btxinshort##1{\protect\foreignlanguage{#1}{W}}%
+  \def\Btxeditorshort##1{\protect\foreignlanguage{#1}{Red.##1{}}}%
+  \def\Btxeditorlong##1{\protect\foreignlanguage{#1}{Redaktor}}%
+  \def\Btxeditorsshort##1{\protect\foreignlanguage{#1}{Red.##1{}}}%
+  \def\Btxeditorslong##1{\protect\foreignlanguage{#1}{Redaktorzy}}%
+  \def\Btxvolumeshort##1{\protect\foreignlanguage{#1}{Vol.##1{}}}%
+  \def\Btxvolumelong##1{\protect\foreignlanguage{#1}{Wolumin}}%
+  \def\Btxnumbershort##1{\protect\foreignlanguage{#1}{Nr##1{}}}%
+  \def\Btxnumberlong##1{\protect\foreignlanguage{#1}{Numer}}%
+  \def\Btxeditionshort##1{\protect\foreignlanguage{#1}{Wyd.##1{}}}%
+  \def\Btxeditionlong##1{\protect\foreignlanguage{#1}{Wydanie}}%
+  \def\Btxchaptershort##1{\protect\foreignlanguage{#1}{Rozdz.##1{}}}%
+  \def\Btxchapterlong##1{\protect\foreignlanguage{#1}{Rozdział}}%
+  \def\Btxpageshort##1{\protect\foreignlanguage{#1}{S.##1{}}}%
+  \def\Btxpagelong##1{\protect\foreignlanguage{#1}{Strona}}%
+  \def\Btxpagesshort##1{\protect\foreignlanguage{#1}{S.##1{}}}%
+  \def\Btxpageslong##1{\protect\foreignlanguage{#1}{Strony}}%
+  \def\Btxtechrepshort##1{\protect\foreignlanguage{#1}{Rap.\ tech.}}%
+  \def\Btxtechreplong##1{\protect\foreignlanguage{#1}{Raport techniczny}}%
+  \def\btxurldatecomment##1{\PackageError{babelbib}{Comment for
+      urldate in Polish undefined. Please send the translation for
+      'visited on' to harald.harders@tu-bs.de}{} [##1]}%
+  \def\btxfnamespaceshort{\,}%
+  \def\btxfnamespacelong{ }%
+  \def\btxnumeralshort##1{\btxnumeralfallback{#1}{##1}}%
+  \def\btxnumerallong##1{\btxnumeralfallback{#1}{##1}}%
+  \def\btxkeywordlanguage##1{{\protect\selectlanguage{#1}##1}}%
+  \ifbbbblanguagenames
+    \def\btxlanguagenameafrikaans{\protect\foreignlanguage{#1}{afrikaans}}%
+    \def\btxlanguagenameamerican{\protect\foreignlanguage{#1}{angielski}}%
+    \def\btxlanguagenameaustrian{\protect\foreignlanguage{#1}{niemiecki}}%
+    \def\btxlanguagenamebrazil{\protect\foreignlanguage{#1}{portugalski}}%
+    \def\btxlanguagenamebrazilian{\protect\foreignlanguage{#1}{portugees}}%
+    \def\btxlanguagenamebritish{\protect\foreignlanguage{#1}{angielski}}%
+    \def\btxlanguagenamebulgarian{\protect\foreignlanguage{#1}{bułgarski}}%
+    \def\btxlanguagenamecanadian{\protect\foreignlanguage{#1}{angielski}}%
+    \def\btxlanguagenamecanadien{\protect\foreignlanguage{#1}{francuski}}%
+    \def\btxlanguagenamecatalan{\protect\foreignlanguage{#1}{kataloński}}%
+    \def\btxlanguagenamecroatian{\protect\foreignlanguage{#1}{chorwacki}}%
+    \def\btxlanguagenameczech{\protect\foreignlanguage{#1}{czeski}}%
+    \def\btxlanguagenamedanish{\protect\foreignlanguage{#1}{duński}}%
+    \def\btxlanguagenamedutch{\protect\foreignlanguage{#1}{holenderski}}%
+    \def\btxlanguagenameenglish{\protect\foreignlanguage{#1}{angielski}}%
+    \def\btxlanguagenameesperanto{\protect\foreignlanguage{#1}{esperanto}}%
+    \def\btxlanguagenamefinnish{\protect\foreignlanguage{#1}{fiński}}%
+    \def\btxlanguagenamefrancais{\protect\foreignlanguage{#1}{francuski}}%
+    \def\btxlanguagenamefrench{\protect\foreignlanguage{#1}{francuski}}%
+    \def\btxlanguagenamefrenchb{\protect\foreignlanguage{#1}{francuski}}%
+    \def\btxlanguagenamegerman{\protect\foreignlanguage{#1}{niemiecki}}%
+    \def\btxlanguagenamegermanb{\protect\foreignlanguage{#1}{niemiecki}}%
+    \def\btxlanguagenamegreek{\protect\foreignlanguage{#1}{grecki}}%
+    \def\btxlanguagenamehebrew{\protect\foreignlanguage{#1}{hebrajski}}%
+    \def\btxlanguagenamenhungarian{\protect\foreignlanguage{#1}{węgierski}}%
+    \def\btxlanguagenamenicelandic{\protect\foreignlanguage{#1}{islandzki}}%
+    \def\btxlanguagenamenirish{\protect\foreignlanguage{#1}{irlandzki}}%
+    \def\btxlanguagenamenitalian{\protect\foreignlanguage{#1}{włoski}}%
+    \def\btxlanguagenamenlatin{\protect\foreignlanguage{#1}{łaciński}}%
+    \def\btxlanguagenamenaustrian{\protect\foreignlanguage{#1}{niemiecki}}%
+    \def\btxlanguagenamengerman{\protect\foreignlanguage{#1}{niemiecki}}%
+    \def\btxlanguagenamennorsk{\protect\foreignlanguage{#1}{norweski}}%
+    \def\btxlanguagenamennynorsk{\protect\foreignlanguage{#1}{nowonorweski}}%
+    \def\btxlanguagenamenpolish{\protect\foreignlanguage{#1}{polski}}%
+    \def\btxlanguagenamenportuges{\protect\foreignlanguage{#1}{portugalski}}%
+    \def\btxlanguagenamenportuguese{\protect\foreignlanguage{#1}{portugalski}}%
+    \def\btxlanguagenamenrussian{\protect\foreignlanguage{#1}{rosyjski}}%
+    \def\btxlanguagenamenscottish{\protect\foreignlanguage{#1}{szkocki}}%
+    \def\btxlanguagenamenserbian{\protect\foreignlanguage{#1}{serbski}}%
+    \def\btxlanguagenamenspanish{\protect\foreignlanguage{#1}{hiszpański}}%
+    \def\btxlanguagenamenswedish{\protect\foreignlanguage{#1}{szwedzki}}%
+    \def\btxlanguagenamenturkish{\protect\foreignlanguage{#1}{turecki}}%
+    \def\btxlanguagenameUKenglish{\protect\foreignlanguage{#1}{angielski}}%
+    \def\btxlanguagenameUSenglish{\protect\foreignlanguage{#1}{angielski}}%
+  \fi
+}
+\AtBeginDocument{%
+  \ifbbbbfixlanguage
+  \else
+    \bbbbaddto{polish}{bibspolish}
+  \fi
+  \bbbbaddto{polish}{btxifchangecaseoff}
+}
+
+\endinput
+%%
+%% End of file `polish.bdf'.

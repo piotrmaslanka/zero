@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.1">
+  <zoom_level>14</zoom_level>
+  <element>
+    <type>com.baselet.element.old.element.Component</type>
+    <coordinates>
+      <x>308</x>
+      <y>392</y>
+      <w>196</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes> 
+'Węzeł 1
+'192.168.0.2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Component</type>
+    <coordinates>
+      <x>896</x>
+      <y>532</y>
+      <w>196</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes> 
+'Węzeł 3
+'192.168.0.4</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Component</type>
+    <coordinates>
+      <x>308</x>
+      <y>560</y>
+      <w>196</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes> 
+'Węzeł 2
+'192.168.0.3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Component</type>
+    <coordinates>
+      <x>896</x>
+      <y>364</y>
+      <w>196</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes> 
+'Węzeł 4
+'192.168.0.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Component</type>
+    <coordinates>
+      <x>630</x>
+      <y>532</y>
+      <w>196</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes> 
+'Węzeł 5
+'192.168.0.6</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>966</x>
+      <y>462</y>
+      <w>42</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>420</y>
+      <w>196</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>120.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>588</y>
+      <w>168</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>798</x>
+      <y>588</y>
+      <w>126</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>10.0;20.0;70.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>812</x>
+      <y>546</y>
+      <w>112</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+</diagram>
